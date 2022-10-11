@@ -12,6 +12,8 @@ This project is emphasized on the use of JavaScript to create a randomly generat
 
 ## <u>Deployed Page</u>
 
+### [Password Generator]("https://iwirsing.github.io/Module-3-Challenge-Password-Generator/")
+
 ## <u>Webpage Features</u>
 - The user can choose the password length from 8 to 128. If a number outside the range is chosen or a letter is typed in, it will later on alert an error and restart the process.
 - The webpage will generate a password according to the user's character type choices. When the user chooses none, it will alert an error and restart the process.
