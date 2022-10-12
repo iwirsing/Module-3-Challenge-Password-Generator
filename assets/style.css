@@ -15,6 +15,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  background-image:url(./brick.jpeg);
 }
 
 .wrapper {
@@ -24,14 +25,16 @@ body {
 }
 
 header {
-  text-align: center;
+  color: hsl(206, 17%, 28%);
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  text-align: center;
+  text-shadow: 5px 5px 5px white;
+ 
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: rgba(255, 255, 255, 0.80);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
