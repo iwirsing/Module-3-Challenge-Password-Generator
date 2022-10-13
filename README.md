@@ -7,7 +7,8 @@ This project is emphasized on the use of JavaScript to create a randomly generat
 1. [Link to Deployed Page](#udeployed-pageu)
 2. [Webpage Features](#uwebpage-featuresu)
 3. [Screenshot](#uscreenshotu)
-4. [Sources](#usources-u)
+4. [Password Generator in Action](#password-generator-in-action)
+5. [Sources](#usources-u)
 
 
 ## <u>Deployed Page</u>
@@ -23,7 +24,11 @@ This project is emphasized on the use of JavaScript to create a randomly generat
 
 ## <u>Screenshot</u>
 
-![ScreenShot](./assets/passwordgenerator.png)
+![ScreenShot](./assets/password%20generator.png)
+
+## <u> Password Generator in Action </u>
+
+![Password Generator](./assets/PasswordGenerator.gif)
 
 ## <u>Sources </u>
 1. https://www.w3schools.com/
