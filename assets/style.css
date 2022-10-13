@@ -13,9 +13,9 @@ body,
 }
 
 body {
-  font-family: sans-serif;
   background-color: #f9fbfd;
   background-image:url(./brick.jpeg);
+  font-family: sans-serif;
 }
 
 .wrapper {
@@ -33,6 +33,15 @@ header {
  
 }
 
+header div{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  text-shadow:1px 1px red;
+  width:fit-content;
+}
+
 .card {
   background-color: rgba(255, 255, 255, 0.80);
   border-radius: 5px;
@@ -46,11 +55,11 @@ header {
 }
 
 .card-header::after {
+  background: #e7e9eb;
   content: " ";
   display: block;
-  width: 100%;
-  background: #e7e9eb;
   height: 2px;
+  width: 100%;
 }
 
 .card-body {
@@ -62,17 +71,18 @@ header {
 }
 
 .card-footer::before {
+  background: #e7e9eb;
   content: " ";
   display: block;
-  width: 100%;
-  background: #e7e9eb;
   height: 2px;
+  width: 100%;
+  
 }
 
 .card-footer::after {
+  clear: both;
   content: " ";
   display: block;
-  clear: both;
 }
 
 .btn {
@@ -82,13 +92,13 @@ header {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
-  cursor: pointer;
 }
 
 /* hover for the buttons */
@@ -98,8 +108,8 @@ header {
 }
 
 button[disabled] {
-  cursor: default;
   background: #c0c7cf;
+  cursor: default;  
 }
 
 .float-right {
@@ -111,20 +121,21 @@ button[disabled] {
   -moz-appearance: none;
   appearance: none;
   border: none;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
   display: block;
-  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
   resize: none;
-  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  
 }
 
 @media (max-width: 690px) {

@@ -11,12 +11,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Password Generator</h1>
+        <!-- title contained in a div for styling -->
+        <div><h1>&nbsp; Password Generator &nbsp; </h1></div>
       </header>
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <!-- password area -->
         <div class="card-body">
           <textarea
             readonly
@@ -25,6 +27,7 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <!-- buttons for generate password and copy to clipboard -->
         <div class="card-footer">
           <button id="generate" class="btn" alt="generate button">Generate Password</button>
           <button id="copy" class="btn" alt="copy to clipboard button">Copy to Clipboard</button>
