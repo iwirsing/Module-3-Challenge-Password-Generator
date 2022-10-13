@@ -13,6 +13,7 @@ body,
 }
 
 body {
+  /* background image of bricks added, they represent a secure wall, which the passwords should be */
   background-color: #f9fbfd;
   background-image:url(./brick.jpeg);
   font-family: sans-serif;
@@ -33,6 +34,7 @@ header {
  
 }
 
+/* container for the h1 title */
 header div{
   background-color: rgba(255, 255, 255, 1);
   border-radius: 10px;
@@ -85,6 +87,7 @@ header div{
   display: block;
 }
 
+/* styling for the buttons */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
