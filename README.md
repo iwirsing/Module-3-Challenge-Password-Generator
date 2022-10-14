@@ -6,8 +6,9 @@ The use of JavaScript is emphasized to create a randomly generated secure passwo
 ## <u>Table of Contents</u>
 1. [Link to Deployed Page](#udeployed-pageu)
 2. [Webpage Features](#uwebpage-featuresu)
-3. [Screenshot](#uscreenshotu)
-4. [Sources](#usources-u)
+3. [Technologies Used](#utechnologies-usedu)
+4. [Screenshot](#uscreenshotu)
+5. [Sources](#usources-u)
 
 ## <u>Deployed Page</u>
 
@@ -23,6 +24,11 @@ The use of JavaScript is emphasized to create a randomly generated secure passwo
 
 - The password can be copied into the clipboard for the user's convenience. The webpage will then alert that the password has been copied.
 
+## <u>Technologies Used</u>
+
+- HTML
+- CSS
+- JavaScript
 
 ## <u>Screenshot</u>
 
