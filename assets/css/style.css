@@ -15,7 +15,7 @@ body,
 body {
   /* background image of bricks added, they represent a secure wall, which the passwords should be */
   background-color: #f9fbfd;
-  background-image:url(./brick.jpeg);
+  background-image:url(../images/brick.jpeg);
   font-family: sans-serif;
 }
 

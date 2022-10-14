@@ -32,7 +32,7 @@ The use of JavaScript is emphasized to create a randomly generated secure passwo
 
 ## <u>Screenshot</u>
 
-![ScreenShot](./assets/password%20generator.png)
+![ScreenShot](./assets/images/password%20generator.png)
 
 ## <u>Sources </u>
 1. https://www.w3schools.com/
